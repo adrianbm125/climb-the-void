@@ -121,7 +121,7 @@ const bossLaserHitboxWidth = 120;   // actual damaging area
 const bossLaserWarningWidth = 500;  // warning lane width
 
 let highScore = localStorage.getItem("highScore") || 0;
-let wave = 10;
+let wave = 1;
 let waveCleared = false;
 let waveTransition = false;
 let waveTransitionTimer = 0;
@@ -1716,7 +1716,7 @@ function gameLoop() {
 
 function restartGame() {
     score = 0;
-    wave = 10; // change back to 1 later
+    wave = 1; // change back to 1 later
     lives = 3;
 
     gameOver = false;
