@@ -1542,7 +1542,7 @@ function gameLoop() {
         ctx.font = "40px Arial";
         ctx.textAlign = "center";
         ctx.fillText(
-            "SPACE INVADERS",
+            "CLIMB THE VOID",
             canvas.width / 2,
             140
         );
