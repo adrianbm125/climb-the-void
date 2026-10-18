@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: #080808;
+    color: white;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+#gameContainer {
+    width: 650px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+canvas {
+    background-color: black;
+    border: 3px solid white;
+    image-rendering: pixelated;
+
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+#controls {
+    margin-top: 15px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 18px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.instructions {
+    color: #aaaaaa;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#restartButton,
+#nextWaveButton {
+    display: none;
+}
